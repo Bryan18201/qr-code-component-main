@@ -1,0 +1,39 @@
+
+body{
+    text-align: center;
+    background: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+}
+
+.box{
+    display: flex;
+    width: 425px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 15rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    flex-direction: column;
+    border-radius: 25px;
+  
+}
+.container p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.container h1{
+    color:  hsl(218, 44%, 22%);
+}
+
+.container img{
+    border-radius: 20px;
+}
